@@ -1,0 +1,13 @@
+# kitchen-app-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: kitchen-app
+spec:
+  selector:
+    app: kitchen-app
+  ports:
+    - port: 3000
+      targetPort: 3000
+  type: NodePort  # or LoadBalancer if you're using a cloud provider
+
