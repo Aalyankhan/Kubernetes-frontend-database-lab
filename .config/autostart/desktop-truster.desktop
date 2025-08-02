@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Desktop-Truster
-Comment=Autostarter to trust all desktop files
-Exec=/root/.config/xfce_custom/startup_script.sh
-Type=Application
